@@ -10,5 +10,5 @@ RUN  apt update \
 	&& apt install -y --no-install-recommends --no-install-suggests \
 		make git catch gcc g++ \
 	&& apt install -y --no-install-recommends --no-install-suggests -tjessie-backports \
-		cmake
+		cmake \
 	&& rm -rf /var/lib/apt/lists/*
